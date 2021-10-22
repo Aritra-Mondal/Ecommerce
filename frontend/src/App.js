@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         <Container>
-          <Route exact path="/" >
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/product/:id">
